@@ -1,0 +1,13 @@
+@media only screen and (max-width: 859px) {
+    header {
+        background-color: red;
+}
+}
+
+
+/*DESKTOP*/
+@media screen and (min-width: 860px) {
+    header {
+        background-color: yellow;
+    }
+}
