@@ -1,0 +1,8 @@
+@media only screen and (max-width: 859px) {
+    .footer-one {
+        background-color: #423333;
+    }
+    .footer-two-img {
+        width: 100%;
+    }
+}
