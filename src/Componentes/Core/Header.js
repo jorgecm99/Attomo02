@@ -3,13 +3,11 @@ import './Header.css';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import headerLogo from '../../Assets/Images/Mobile/Group 38.png';
-import backHeader from '../../Assets/Images/Mobile/Foto recurso 2.png';
 
 
 function Header() {
   return (
     <header>
-        <img className='main-image' src={backHeader} alt=''></img>
         <div className='header'>
             <div className='dropdown'>
                 <div className='dropdown-icon'>

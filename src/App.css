@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+@font-face {
+  font-family: 'Boldness';
+  src: url(/src/Assets/Fonts/Boldness.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Livvic';
+  src: url(/src/Assets/Fonts/Livvic-Light.ttf) format('truetype');
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
