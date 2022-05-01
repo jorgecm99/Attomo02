@@ -16,7 +16,7 @@ function Landing() {
   return (
     <section>
         <div className='landing-video'>
-            <video width="100%" height="100%" controls autoplay>
+            <video width="100%" height="100%" controls auoplay>
             <source src={videoGranada} type="video/mp4"></source>
             Tu navegador no soporta los vídeos de HTML5
             </video>

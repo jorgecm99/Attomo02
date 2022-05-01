@@ -6,11 +6,24 @@ import image02 from '../../Assets/Images/Mobile/02.png';
 import image03 from '../../Assets/Images/Mobile/03.png';
 import image04 from '../../Assets/Images/Mobile/04.png';
 import rectangle from '../../Assets/Images/Mobile/Rectangle 104.png';
+import menu01 from '../../Assets/Images/Mobile/touch.svg';
+import menu02 from '../../Assets/Images/Mobile/gafas.svg';
+import menu03 from '../../Assets/Images/Mobile/selfie.svg';
 
 const insideStyle = {
     background : "transparent",
     position: "absolute",
-    top: "50%",
+    top: "35%",
+    left: "50%",
+    transform: "translate(-50%, -50%)" ,
+    width: 305,
+}
+
+const insideStyleTwo = {
+    background : "transparent",
+    position: "absolute",
+    textAlign: "right",
+    top: "25%",
     left: "50%",
     transform: "translate(-50%, -50%)" ,
     width: 305,
@@ -31,20 +44,21 @@ function ParallaxModule() {
                     </p>
                 </div>
             </div>
+        </Parallax>
 
-            <div className='parallax-image-container'>
+        <div className='parallax-image-container'>
             <img className='parallax-image' src={rectangle} alt=''></img>
             <h1>¿qué incluye?</h1>
         </div>
-        </Parallax>
-
-        
 
         <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
             <div style={{height: 500}}>
-                <div style={insideStyle}>
-                    <h2>mural interactivo</h2>
-                    <p>Accede a contenido adicional como momentos históricos o  jugadores míticos 
+                <div style={insideStyleTwo}>
+                    <div className='menu'>
+                        <img className='list-menu' src={menu01} alt=''/>
+                        <h2 className='parallax-second'>mural interactivo</h2>
+                    </div>           
+                    <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
                        del Granada CF a través de la realidad aumentada. 
                     </p>
                 </div>
@@ -54,7 +68,10 @@ function ParallaxModule() {
         <Parallax bgImage={image03} strength={100}>
             <div style={{height: 500}}>
                 <div style={insideStyle}>
-                    <h2>experiencia inmersiva 360º</h2>
+                    <div className='menu-three'>  
+                        <h2 className='parallax-three'>experiencia inmersiva 360º</h2>
+                        <img className='menu-icon' src={menu02} alt=''/>
+                    </div>
                     <p>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
                         experiencia de realidad virtual. Calienta junto con tus compañeros de equipo 
                         o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo. 
@@ -65,8 +82,11 @@ function ParallaxModule() {
 
         <Parallax bgImage={image04} strength={100}>
             <div style={{height: 500}}>
-                <div style={insideStyle}>
-                    <h2>foto con jugadores</h2>
+                <div style={insideStyleTwo}>
+                    <div className='menu-four'>
+                        <img className='menu-icon' src={menu03} alt=''/>
+                        <h2 className='parallax-four'>foto con jugadores</h2>
+                    </div>
                     <p>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
                         Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
                     </p>

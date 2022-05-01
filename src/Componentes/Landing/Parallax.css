@@ -25,6 +25,7 @@
     }
     .parallax-image {
         width: 100%;
+        position: relative;
     }
     h1 {
         position: absolute;
@@ -32,6 +33,31 @@
         right: 0;
         bottom: 24%;
         width: 100%;
+    }
+    .parallax-second {
+        margin: 8px auto;
+    }
+    .parallax-three {
+        width: 70%;
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu-three {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu-four {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .parallax-four {
+        font-size: 33px;
+        
     }
     
 }
