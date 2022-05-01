@@ -1,7 +1,12 @@
 @media only screen and (max-width: 859px) {
+    .landing-video {
+        width: 100%;
+        height: 220px;
+    }
     .landing-last {
         position: relative;
         width: 100%;
+        height: 676px;
         margin: 0;
     }
     .landing-last h2 {
@@ -14,6 +19,7 @@
     }
     .landing-image {
         width: 100%;
+        height: 100%;
     }
     .landing-last-container {
         color: #fff;
