@@ -20,7 +20,7 @@ function ParallaxModule() {
   return (
     <div>
         <Parallax bgImage={image01} strength={100}>
-            <div style={{height: 500}}>
+            <div style={{height: 600}}>
                 <div style={insideStyle}>
                     <h2>¿qué es?</h2>
                     <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
