@@ -15,6 +15,12 @@
   src: url(/src/Assets/Fonts/Livvic-Light.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Livvic-semi';
+  src: url(/src/Assets/Fonts/Livvic-SemiBold.ttf) format('truetype');
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
