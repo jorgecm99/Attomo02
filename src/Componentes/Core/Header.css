@@ -6,23 +6,16 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    .main-image {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        position: absolute;
-        opacity: 85%;
-    }
+    
     .dropdown-icon {
         font-size: 40px;
-        padding-left:20px;
     }
-    .btn-container {
-        padding-right: 20px;
+    .image-logo {
+        margin: auto auto;
     }
     button {
         width: 117px ;
@@ -65,12 +58,47 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
+    .dropdown-content-desktop li {
+        display: none;
+    }
 }
 
 
 /*DESKTOP*/
 @media screen and (min-width: 860px) {
-    header {
-        background-color: yellow;
+    .header {
+        background-image: url(../../Assets/Images/Desktop/Foto\ recurso\ 2.png);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 25px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .dropdown-content-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dropdown-content-desktop li {
+        font-family: Livvic;
+        list-style: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 30px;
+    }
+    
+    button {
+        width: 117px ;
+        border-radius: 27px;
+        cursor: pointer;
+        line-height: 2px solid red;
+        background-color: #FFFFFF;
+        color: #B01630;
+        padding: 6px 8px;
+        font-size: 16px;
+        font-weight: bold;
     }
 }

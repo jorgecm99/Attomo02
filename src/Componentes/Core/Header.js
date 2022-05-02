@@ -21,8 +21,14 @@ function Header() {
                 </div>
             </div>
 
-            <div className='image-container'>
+            
                 <img className='image-logo' src={headerLogo} alt=''></img>
+            
+
+            <div className='dropdown-content-desktop'>
+                    <li>¿Qué es?</li>
+                    <li>¿Qué incluye?</li>
+                    <li>Info Práctica</li>
             </div>
             
             <div className='btn-container'>

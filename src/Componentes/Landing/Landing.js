@@ -1,7 +1,6 @@
 import React from 'react';
 import './Landing.css';
 import videoGranada from '../../Assets/Video/TOURGCF.mp4';
-import landingImage from '../../Assets/Images/Mobile/Rectangle 101.png';
 import ParallaxModule from './Parallax';
 import icon01 from '../../Assets/Icons/Mobile/Calendar.svg';
 import icon02 from '../../Assets/Icons/Mobile/Clock.svg';
@@ -25,16 +24,18 @@ function Landing() {
         <ParallaxModule/>
 
         <div className='landing-last'>
-          <img className='landing-image' src={landingImage} alt=''></img>
           <div className='landing-last-container'>
             <h2>información práctica</h2>
 
             <div className='landing-div'>
               <img className='list-icon' src={icon01} alt=''/>
-              <div>
-                <p><b className='landing-bold'>Fecha y hora:</b></p>
-                <p>Viernes: <b>16:00h y 17:00h</b></p>
-                <p>Sábado: <b>11:00h y 12:00h</b></p>
+              <div className='landing-desktop'>
+                <p><b className='landing-bold'>Fecha y hora:&nbsp;</b></p>
+                <div>
+                     <p>Viernes:&nbsp;<b>16:00h y 17:00h</b></p>
+                     <p>Sábado:&nbsp;<b>11:00h y 12:00h</b></p>
+                </div>
+                
               </div>
             </div>
 
@@ -46,8 +47,19 @@ function Landing() {
             <div className='landing-div'>
               <img className='list-icon' src={icon03} alt=''/>
               <div>  
-                <p><b>Lugar: </b>Estadio Nuevo Los Cármenes</p>
-                <p><b>Punto de encuentro: </b>Tienda del estadio</p>
+                <p><b>Lugar:&nbsp;</b>Estadio Nuevo Los Cármenes</p>
+                <p><b>Punto de encuentro:&nbsp;</b>Tienda del estadio</p>
+              </div>
+            </div>
+
+            <div className='landing-div'>
+              <img className='list-icon' src={icon03} alt=''/>
+              <div className='landing-desktop'>  
+                <p><b>Lugar: </b></p>
+                <div>
+                  <p>Estadio Nuevo Los Cármenes</p>
+                  <p><b>Punto de encuentro: </b>Tienda del estadio</p>
+                </div>
               </div>
             </div>
 
@@ -70,6 +82,18 @@ function Landing() {
               <img className='list-icon' src={icon07} alt=''/>
               <p><b>Personalizar: </b>Para personalizar tu experiencia (cumpleaños, empresas, grupos grandes) contactad
               con hola@bstadium.es</p>
+            </div>
+
+            <div className='landing-div'>
+              <img className='list-icon' src={icon07} alt=''/>
+              <div className='landing-desktop'>
+                <p><b>Personalizar: </b></p>
+                <div>
+                <p>Para personalizar tu experiencia (cumpleaños, empresas, grupos grandes) contactad
+                con hola@bstadium.es</p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>

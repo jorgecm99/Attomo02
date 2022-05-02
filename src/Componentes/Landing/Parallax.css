@@ -1,4 +1,3 @@
-@media only screen and (max-width: 859px) {
     h2, h1 {
         text-transform: uppercase;
         font-family: Boldness;
@@ -59,5 +58,8 @@
         font-size: 33px;
         
     }
+    .parallax-desktop {
+        display: none;
+    }
     
-}
+

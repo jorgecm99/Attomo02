@@ -29,9 +29,12 @@ const insideStyleTwo = {
     width: 305,
 }
 
+
+
 function ParallaxModule() {
   return (
     <div>
+        <div className='parallax-mobile'>
         <Parallax bgImage={image01} strength={100}>
             <div style={{height: 600}}>
                 <div style={insideStyle}>
@@ -44,12 +47,13 @@ function ParallaxModule() {
                     </p>
                 </div>
             </div>
-        </Parallax>
-
-        <div className='parallax-image-container'>
+            <div className='parallax-image-container'>
             <img className='parallax-image' src={rectangle} alt=''></img>
             <h1>¿qué incluye?</h1>
-        </div>
+            </div>
+        </Parallax>
+
+        
 
         <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
             <div style={{height: 500}}>
@@ -93,6 +97,9 @@ function ParallaxModule() {
                 </div>
             </div>
         </Parallax>
+        </div>
+
+        
 
     </div>
   )

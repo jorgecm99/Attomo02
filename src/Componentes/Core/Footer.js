@@ -18,7 +18,7 @@ function Footer() {
       <div className='footer-two'>
         <img className='footer-two-img' src={footerBack} alt=''></img>
         <div className='footer-two-container'>
-          <p>Siente la <b>experiencia Granada CF</b> desde dentro y forma parte de ella.</p>
+          <p>Siente la <b className='bold'>experiencia Granada CF</b> desde dentro y forma parte de ella.</p>
           <button className='footer-btn'>comprar</button>
           <div className='footer-two-images'>
             <img className='logo-one' src={logoGranada}alt=''></img>
