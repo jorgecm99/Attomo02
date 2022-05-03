@@ -1,6 +1,5 @@
 import React from 'react';
 import './Landing.css';
-import videoGranada from '../../Assets/Video/TOURGCF.mp4';
 import ParallaxModule from './Parallax';
 import icon01 from '../../Assets/Icons/Mobile/Calendar.svg';
 import icon02 from '../../Assets/Icons/Mobile/Clock.svg';
@@ -14,13 +13,7 @@ import icon07 from '../../Assets/Icons/Mobile/Slider.svg';
 function Landing() {
   return (
     <section>
-        <div className='landing-video'>
-            <video width="100%" height="100%" controls auoplay>
-            <source src={videoGranada} type="video/mp4"></source>
-            Tu navegador no soporta los vídeos de HTML5
-            </video>
-        </div>
-
+        
         <ParallaxModule/>
 
         <div className='landing-last'>

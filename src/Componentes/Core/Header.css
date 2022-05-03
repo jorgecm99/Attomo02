@@ -10,6 +10,9 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .back-video{
+        display: none;
+    }
     
     .dropdown-icon {
         font-size: 40px;
@@ -68,13 +71,30 @@
 @media screen and (min-width: 860px) {
     
     .header {
-        background-image: url(../../Assets/Images/Desktop/Foto\ recurso\ 2.png);
-        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75vh;
+        position: relative;
+    }
+    nav {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px auto;
+        margin: 20px auto;
+    }
+    .back-video {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
         width: 100%;
+        margin: auto ;
     }
     .dropdown{
         display: none;

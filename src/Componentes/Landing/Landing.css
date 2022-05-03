@@ -1,8 +1,4 @@
 @media only screen and (min-width: 390px) {
-    .landing-video {
-        width: 100%;
-        height: 220px;
-    }
     .landing-last {
         background-color: #C31632;
         position: relative;
