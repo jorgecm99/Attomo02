@@ -14,7 +14,7 @@ import llave from '../../Assets/Images/Desktop/llave.svg';
 const insideStyle = {
     background : "transparent",
     position: "absolute",
-    top: "35%",
+    top: "43%",
     left: "50%",
     transform: "translate(-50%, -50%)" ,
     width: 305,
@@ -38,8 +38,11 @@ function ParallaxModule() {
         <div className='parallax-mobile'>
         <Parallax bgImage={image01} strength={100}>
             <div style={{height: 600}}>
-                <div style={insideStyle}>
-                    <h2>¿qué es?</h2>
+            <div className='landing-title'> 
+                        <img className='landing-llave' src={llave} alt=""></img>
+                        <h2>¿qué es?</h2>
+                   </div> 
+                <div style={insideStyle}>       
                     <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
                     conocer los secretos del club, interactuar con sus jugadores y muchas otras sorpresas.
                     </p>
@@ -48,13 +51,12 @@ function ParallaxModule() {
                     </p>
                 </div>
             </div>
-            <div className='parallax-image-container'>
+        </Parallax>
+                  
+        <div className='parallax-image-container'>
             <img className='parallax-image' src={rectangle} alt=''></img>
             <h1>¿qué incluye?</h1>
-            </div>
-        </Parallax>
-
-        
+        </div>
 
         <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
             <div style={{height: 500}}>
@@ -113,6 +115,11 @@ function ParallaxModule() {
                     de realidad aumentada y virtual para todos los públicos. 
                     </p>
                 </div>
+            </div>
+
+            <div className='parallax-image-container-desktop'>
+                <img className='parallax-image' src={rectangle} alt=''></img>
+                <h1>¿qué incluye?</h1>
             </div>
 
             <div className='desktop-two'>

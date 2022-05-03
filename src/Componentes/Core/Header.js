@@ -40,8 +40,8 @@ function Header() {
             
 
             <div className='dropdown-content-desktop'>
-                    <li>¿Qué es?</li>
-                    <li>¿Qué incluye?</li>
+                    <li onClick={() => scrollTo('.desktop-one')}>¿Qué es?</li>
+                    <li onClick={() => scrollTo('.parallax-image-container-desktop')}>¿Qué incluye?</li>
                     <li onClick={() => scrollTo('.landing-last')}>Info Práctica</li>
             </div>
             
