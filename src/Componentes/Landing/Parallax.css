@@ -78,16 +78,17 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        width: 100%;
     }
     .desktop-one {
         background-image: url(../../Assets/Images/Desktop/01.png);
-        width: 100%;
         min-height: 75vh;
         
     }
     .desktop-two {
         background-image: url(../../Assets/Images/Desktop/02.png);
         min-height: 75vh;
+        
     }
     .desktop-three {
         background-image: url(../../Assets/Images/Desktop/03.png);
@@ -100,13 +101,15 @@
     .desktop-one-text {
         position: absolute;
         width: 40%;
-        padding: 100px;
+        left: 0;
+        margin: 90px 120px;
     }
     .desktop-two-text {
         position: absolute;
-        width: 40%;
-        padding: 100px;
+        width: 36%;
         text-align: right;
+        right: 0;
+        margin: 90px 120px;
     }
     h2, h1 {
         text-transform: uppercase;
@@ -129,25 +132,26 @@
         font-weight: bolder;
     }
     .parallax-second {
-        margin: 8px;
+        margin: 8px 0;
     }
     .parallax-three {
         width: 100%;
+        margin-bottom: 8px;
     }
-    .menu {
+    .parallax-four {
+        margin-bottom: 8px;
+    }
+    .menu, .menu-four {
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
     }
     .menu-three {
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
-    .menu-four {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 100%;
-    }
+    
     
 }

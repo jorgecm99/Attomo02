@@ -131,7 +131,7 @@ function ParallaxModule() {
                         <h2 className='parallax-three'>experiencia inmersiva 360º</h2>
                         <img className='menu-icon' src={menu02} alt=''/>
                     </div>
-                    <p>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
+                    <p className='parallax-second'>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
                         experiencia de realidad virtual. Calienta junto con tus compañeros de equipo 
                         o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo. 
                     </p>
@@ -144,7 +144,7 @@ function ParallaxModule() {
                         <img className='menu-icon' src={menu03} alt=''/>
                         <h2 className='parallax-four'>foto con jugadores</h2>
                     </div>
-                    <p>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
+                    <p className='parallax-second'>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
                         Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
                     </p>
 

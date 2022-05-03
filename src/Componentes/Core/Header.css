@@ -69,13 +69,12 @@
     
     .header {
         background-image: url(../../Assets/Images/Desktop/Foto\ recurso\ 2.png);
+        background-repeat: no-repeat;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 15px auto;
         width: 100%;
-        top: 0;
-        left: 0;
     }
     .dropdown{
         display: none;
