@@ -24,7 +24,7 @@ const insideStyleTwo = {
     background : "transparent",
     position: "absolute",
     textAlign: "right",
-    top: "25%",
+    top: "30%",
     left: "50%",
     transform: "translate(-50%, -50%)" ,
     width: 305,
@@ -51,14 +51,19 @@ function ParallaxModule() {
                     </p>
                 </div>
             </div>
-        </Parallax>
-                  
-        <div className='parallax-image-container'>
+
+            <div className='parallax-image-container'>
             <img className='parallax-image' src={rectangle} alt=''></img>
             <h1>¿qué incluye?</h1>
         </div>
+        </Parallax>
+                  
+        
 
         <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
+        <div className='parallax-image-container-two'>
+        <img className='parallax-image' src={rectangle} alt=''></img>
+        </div>
             <div style={{height: 500}}>
                 <div style={insideStyleTwo}>
                     <div className='menu'>
@@ -115,14 +120,16 @@ function ParallaxModule() {
                     de realidad aumentada y virtual para todos los públicos. 
                     </p>
                 </div>
+
             </div>
 
-            <div className='parallax-image-container-desktop'>
-                <img className='parallax-image' src={rectangle} alt=''></img>
-                <h1>¿qué incluye?</h1>
-            </div>
+            
 
             <div className='desktop-two'>
+                <div className='parallax-image-container-desktop'>
+                    <img className='parallax-image' src={rectangle} alt=''></img>
+                    <h1 className='h1'>¿qué incluye?</h1>
+                </div>
                 <div className='desktop-two-text'>
                     <div className='menu'>
                         <img className='list-menu' src={menu01} alt=''/>
