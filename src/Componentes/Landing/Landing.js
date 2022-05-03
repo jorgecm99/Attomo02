@@ -8,6 +8,7 @@ import icon04 from '../../Assets/Icons/Mobile/Person.svg';
 import icon05 from '../../Assets/Icons/Mobile/Language.svg';
 import icon06 from '../../Assets/Icons/Mobile/Declined.svg';
 import icon07 from '../../Assets/Icons/Mobile/Slider.svg';
+import llave from '../../Assets/Images/Desktop/llave.svg';
 
 
 function Landing() {
@@ -18,7 +19,10 @@ function Landing() {
 
         <div className='landing-last'>
           <div className='landing-last-container'>
-            <h2>información práctica</h2>
+            <div className='landing-last-main'>
+              <img className='landing-llave' src={llave} alt=""></img>
+              <h2>información práctica</h2>
+            </div>
 
             <div className='landing-div'>
               <img className='list-icon' src={icon01} alt=''/>

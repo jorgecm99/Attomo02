@@ -9,6 +9,7 @@ import rectangle from '../../Assets/Images/Mobile/Rectangle 104.png';
 import menu01 from '../../Assets/Images/Mobile/touch.svg';
 import menu02 from '../../Assets/Images/Mobile/gafas.svg';
 import menu03 from '../../Assets/Images/Mobile/selfie.svg';
+import llave from '../../Assets/Images/Desktop/llave.svg';
 
 const insideStyle = {
     background : "transparent",
@@ -103,7 +104,8 @@ function ParallaxModule() {
 
         <div className='parallax-desktop'>
             <div className='desktop-one'>
-                <div className='desktop-one-text'>
+            <img className='landing-llave' src={llave} alt=""></img>
+                <div className='desktop-first-text'>
                     <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
                     conocer los secretos del club, interactuar con sus jugadores y muchas otras sorpresas.
                     </p>

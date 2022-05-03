@@ -7,6 +7,12 @@ import videoGranada from '../../Assets/Video/TOURGCF.mp4';
 
 
 function Header() {
+    const scrollTo = (nodeSelector) => {
+        const domNode = document.querySelector(nodeSelector)
+
+        window.scrollTo?.({ top: domNode.offsetTop, behavior: 'smooth' });
+    }
+
   return (
     <header>
         <div className='header'>
@@ -36,7 +42,7 @@ function Header() {
             <div className='dropdown-content-desktop'>
                     <li>¿Qué es?</li>
                     <li>¿Qué incluye?</li>
-                    <li>Info Práctica</li>
+                    <li onClick={() => scrollTo('.landing-last')}>Info Práctica</li>
             </div>
             
             <div className='btn-container'>
