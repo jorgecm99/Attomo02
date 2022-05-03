@@ -99,6 +99,62 @@ function ParallaxModule() {
         </Parallax>
         </div>
 
+        {/*********************************** PARALLAX DESKTOP VERSION*****************************************/}
+
+        <div className='parallax-desktop'>
+            <div className='desktop-one'>
+                <div className='desktop-one-text'>
+                    <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
+                    conocer los secretos del club, interactuar con sus jugadores y muchas otras sorpresas.
+                    </p>
+                    <p className='first-para'>Conoce los <b>secretos</b> del estadio y el club mientras juegas e interactúas a través de experiencias 
+                    de realidad aumentada y virtual para todos los públicos. 
+                    </p>
+                </div>
+            </div>
+
+            <div className='desktop-two'>
+                <div className='desktop-two-text'>
+                    <div className='menu'>
+                        <img className='list-menu' src={menu01} alt=''/>
+                        <h2 className='parallax-second'>mural interactivo</h2>
+                    </div>           
+                    <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
+                       del Granada CF a través de la realidad aumentada. 
+                    </p>
+                </div>
+            </div>
+
+            <div className='desktop-three'>
+                <div className='desktop-one-text'>
+                    <div className='menu-three'>  
+                        <h2 className='parallax-three'>experiencia inmersiva 360º</h2>
+                        <img className='menu-icon' src={menu02} alt=''/>
+                    </div>
+                    <p>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
+                        experiencia de realidad virtual. Calienta junto con tus compañeros de equipo 
+                        o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo. 
+                    </p>
+                </div>              
+            </div>
+
+            <div className='desktop-four'>
+                <div className='desktop-two-text'>
+                    <div className='menu-four'>
+                        <img className='menu-icon' src={menu03} alt=''/>
+                        <h2 className='parallax-four'>foto con jugadores</h2>
+                    </div>
+                    <p>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
+                        Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
+                    </p>
+
+                </div>
+                    
+            </div>
+
+
+        </div>
+
         
 
     </div>

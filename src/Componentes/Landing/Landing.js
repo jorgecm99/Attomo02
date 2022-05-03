@@ -55,10 +55,10 @@ function Landing() {
             <div className='landing-div'>
               <img className='list-icon' src={icon03} alt=''/>
               <div className='landing-desktop'>  
-                <p><b>Lugar: </b></p>
+                <p><b>Lugar:&nbsp;</b></p>
                 <div>
                   <p>Estadio Nuevo Los Cármenes</p>
-                  <p><b>Punto de encuentro: </b>Tienda del estadio</p>
+                  <p><b>Punto de encuentro:&nbsp;</b>Tienda del estadio</p>
                 </div>
               </div>
             </div>

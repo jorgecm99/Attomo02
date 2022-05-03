@@ -1,3 +1,4 @@
+@media only screen and (max-width: 859px) {
     h2, h1 {
         text-transform: uppercase;
         font-family: Boldness;
@@ -61,5 +62,92 @@
     .parallax-desktop {
         display: none;
     }
-    
+} 
 
+@media only screen and (min-width: 860px) {
+    body, html {
+        margin: 0;
+    }
+    .parallax-mobile {
+        display: none;
+    }
+    
+    .desktop-one, .desktop-two, .desktop-three, .desktop-four {
+        position: relative;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .desktop-one {
+        background-image: url(../../Assets/Images/Desktop/01.png);
+        width: 100%;
+        min-height: 75vh;
+        
+    }
+    .desktop-two {
+        background-image: url(../../Assets/Images/Desktop/02.png);
+        min-height: 75vh;
+    }
+    .desktop-three {
+        background-image: url(../../Assets/Images/Desktop/03.png);
+        min-height: 75vh;
+    }
+    .desktop-four {
+        background-image: url(../../Assets/Images/Desktop/04.png);
+        min-height: 75vh;
+    }
+    .desktop-one-text {
+        position: absolute;
+        width: 40%;
+        padding: 100px;
+    }
+    .desktop-two-text {
+        position: absolute;
+        width: 40%;
+        padding: 100px;
+        text-align: right;
+    }
+    h2, h1 {
+        text-transform: uppercase;
+        font-family: Boldness;
+        font-size: 35px;
+        font-weight: lighter;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: Livvic;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .first-para {
+        font-size: 18px;
+    }
+    b {
+        font-family: Livvic-semi;
+        font-weight: bolder;
+    }
+    .parallax-second {
+        margin: 8px;
+    }
+    .parallax-three {
+        width: 100%;
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu-three {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu-four {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    
+}
