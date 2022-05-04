@@ -17,7 +17,7 @@ function Header() {
     <header>
         <div className='header'>
 
-            <video auoplay loop muted playsInline className='back-video'>
+            <video muted controls autoPlay className='back-video'>
                 <source src={videoGranada} type="video/mp4"></source>
                 Tu navegador no soporta los vídeos de HTML5
             </video>

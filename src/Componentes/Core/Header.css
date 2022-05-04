@@ -29,9 +29,11 @@
     .dropdown-icon {
         font-size: 40px;
         margin-left: 20px;
+        z-index: 1;
     }
     .image-logo {
         margin: auto auto;
+        z-index: 1;
     }
     button {
         width: 117px ;
@@ -53,10 +55,12 @@
         position: absolute;
         background-color: #423333;
         z-index: 1;
-        margin-top: 0;
+        padding-top: 88px;
+        padding-bottom: 40px;
         margin-bottom: 0;
-        width: 100vw; 
-        height: 396px;    
+        width: 100vw;  
+        top: -22px;
+        
     }
     .dropdown-content li {
         list-style: none;
@@ -80,6 +84,7 @@
     
     .btn-container {
         margin-right: 20px;
+        z-index: 1;
     }
     
 }

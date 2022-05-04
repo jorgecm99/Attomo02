@@ -214,6 +214,7 @@
         height: 35px;
         left: 0;
         padding: 50px 0;
+        
     }
     .parallax-image-container-desktop {
         position: relative;
@@ -241,8 +242,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        right: -40px;
-        top: 13px;
+        right: 0;
+        top: 9px;
+    }
+    .parallax-llave img:last-child {
+        width: 195px;
     }
     .menu-icon {
         margin: 0 15px;
