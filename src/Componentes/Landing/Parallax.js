@@ -10,6 +10,8 @@ import menu01 from '../../Assets/Images/Mobile/touch.svg';
 import menu02 from '../../Assets/Images/Mobile/gafas.svg';
 import menu03 from '../../Assets/Images/Mobile/selfie.svg';
 import llave from '../../Assets/Images/Desktop/llave.svg';
+import circulo from '../../Assets/Icons/Desktop/circulo.png';
+import linea from '../../Assets/Icons/Desktop/linea.png';
 
 const insideStyle = {
     background : "transparent",
@@ -24,7 +26,7 @@ const insideStyleTwo = {
     background : "transparent",
     position: "absolute",
     textAlign: "right",
-    top: "30%",
+    top: "35%",
     left: "50%",
     transform: "translate(-50%, -50%)" ,
     width: 305,
@@ -40,7 +42,7 @@ function ParallaxModule() {
             <div style={{height: 600}}>
             <div className='landing-title'> 
                         <img className='landing-llave' src={llave} alt=""></img>
-                        <h2>¿qué es?</h2>
+                        <h2 className='title'>¿qué es?</h2>
                    </div> 
                 <div style={insideStyle}>       
                     <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
@@ -52,22 +54,27 @@ function ParallaxModule() {
                 </div>
             </div>
 
-            <div className='parallax-image-container'>
-            <img className='parallax-image' src={rectangle} alt=''></img>
-            <h1>¿qué incluye?</h1>
-        </div>
+            
         </Parallax>
                   
         
 
         <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
-        <div className='parallax-image-container-two'>
-        <img className='parallax-image' src={rectangle} alt=''></img>
-        </div>
+        <div className='parallax-image-container'>
+            <img className='parallax-image' src={rectangle} alt=''></img>
+            <div className='title-llave'>
+            <h1>¿qué incluye?</h1>
+                <div className='parallax-llave'>
+                    <img  className='circulo' src={circulo} alt=""></img>
+                    <img src={linea} alt=""></img>
+                </div>
+            </div>
+            
+            </div>
             <div style={{height: 500}}>
                 <div style={insideStyleTwo}>
                     <div className='menu'>
-                        <img className='list-menu' src={menu01} alt=''/>
+                        <img className='menu-icon' src={menu01} alt=''/>
                         <h2 className='parallax-second'>mural interactivo</h2>
                     </div>           
                     <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
@@ -129,10 +136,14 @@ function ParallaxModule() {
                 <div className='parallax-image-container-desktop'>
                     <img className='parallax-image' src={rectangle} alt=''></img>
                     <h1 className='h1'>¿qué incluye?</h1>
+                    <div className='parallax-llave'>
+                        <img src={circulo} alt=""></img>
+                        <img src={linea} alt=""></img>
+                    </div>
                 </div>
                 <div className='desktop-two-text'>
                     <div className='menu'>
-                        <img className='list-menu' src={menu01} alt=''/>
+                        <img className='menu-icon' src={menu01} alt=''/>
                         <h2 className='parallax-second'>mural interactivo</h2>
                     </div>           
                     <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
@@ -163,9 +174,7 @@ function ParallaxModule() {
                     <p className='parallax-second'>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
                         Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
                     </p>
-
-                </div>
-                    
+                </div>             
             </div>
 
 
