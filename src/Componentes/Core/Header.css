@@ -16,34 +16,35 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 20px auto;
+        margin: 24px auto;
     }
     .back-video{
         right: 0;
         top: 0;
         left: 0;
-        width: 100%;
+        height: 700px;
         margin: auto ;
     }
-    
     .dropdown-icon {
-        font-size: 40px;
+        font-size: 36px;
         margin-left: 20px;
-        z-index: 1;
+        z-index: 2;
     }
+    
     .image-logo {
         margin: auto auto;
         z-index: 1;
+        width: 130px;
     }
     button {
-        width: 117px ;
+        width: 90px ;
         border-radius: 27px;
         cursor: pointer;
         line-height: 2px solid red;
         background-color: #FFFFFF;
         color: #B01630;
         padding: 6px 8px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
     }
     .dropdown {
@@ -59,7 +60,7 @@
         padding-bottom: 40px;
         margin-bottom: 0;
         width: 100vw;  
-        top: -22px;
+        top: -28px;
         
     }
     .dropdown-content li {
@@ -86,6 +87,56 @@
         margin-right: 20px;
         z-index: 1;
     }
+    .header-video-content {
+        position: absolute;
+        text-align: center;
+        font-family: Livvic;
+        top: 120px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+     
+    .header-title {
+        font-family: Boldness;
+        width: 80%;
+        font-size: 60px;
+        margin: 0 auto;
+    }
+    .header-title-two {
+        font-family: Boldness-outline;
+        font-size: 50px;
+        margin: 20px 20px 0 20px;
+    }
+    .header-btn {
+        text-transform: uppercase;
+        font-family: Livvic;
+        font-size: 25px;
+        color: #c31732;
+        margin: 30px auto;
+        min-width: 210px;
+        height: 56px;
+        letter-spacing: 6px;
+        cursor: pointer;
+        border: none;
+        text-decoration: none !important;
+    }
+    .footer-two-images {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto 40px;
+    }
+    .wasap-logo {
+        width: 50px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .wasap-pic {
+        width: 100%;
+    }
     
 }
 
@@ -94,6 +145,7 @@
 @media screen and (min-width: 860px) {
     
     .header {
+        background-image: linear-gradient(to top right, red, white);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -123,6 +175,7 @@
         left: 0;
         width: 100%;
         margin: auto ;
+        opacity: 20%;
     }
     .dropdown{
         display: none;
@@ -136,7 +189,7 @@
         font-family: Livvic-semi;
         list-style: none;
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: bold;
         padding: 20px 30px;
     }
@@ -154,10 +207,90 @@
     }
     .image-logo{
         margin-left: 25px;
-        width: 15%;
     }
     .btn-container {
         margin-right: 25px;
+    }
+    .dropdown-header {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content-header {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 0;
+        width: 145%;
+        
+    }
+    .dropdown-content-header li {
+        list-style: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .dropdown-content-header li:hover{
+        color: gray;
+    }
+    .dropdown-header:hover .dropdown-content-header {
+        display: block;
+    }
+    .header-video-content {
+        position: absolute;
+        text-align: center;
+        font-family: Livvic;
+        top: 120px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+     
+    .header-title {
+        font-family: Boldness;
+        width: 80%;
+        font-size: 100px;
+        margin: 20px auto;
+    }
+    .header-title-two {
+        font-family: Boldness-outline;
+        font-size: 60px;
+        margin: 20px 20px 60px 20px;
+    }
+    .header-btn {
+        text-transform: uppercase;
+        font-family: Livvic;
+        font-size: 25px;
+        color: #c31732;
+        margin: 30px auto;
+        min-width: 210px;
+        height: 56px;
+        letter-spacing: 6px;
+        cursor: pointer;
+        border: none;
+        text-decoration: none !important;
+    }
+    .header-two-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 40px;
+    }
+    .logo-one {
+        margin: auto 10px;
+    }
+    .wasap-logo {
+        width: 80px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .wasap-pic {
+        width: 100%;
     }
 
 }
