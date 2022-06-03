@@ -1,36 +1,12 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
 import './Parallax.css';
-import image01 from '../../Assets/Images/Mobile/01.png';
-import image02 from '../../Assets/Images/Mobile/02.png';
-import image03 from '../../Assets/Images/Mobile/03.png';
-import image04 from '../../Assets/Images/Mobile/04.png';
-import rectangle from '../../Assets/Images/Mobile/Rectangle 104.png';
 import menu01 from '../../Assets/Images/Mobile/touch.svg';
 import menu02 from '../../Assets/Images/Mobile/gafas.svg';
 import menu03 from '../../Assets/Images/Mobile/selfie.svg';
 import llave from '../../Assets/Images/Desktop/llave.svg';
-import circulo from '../../Assets/Icons/Desktop/circulo.png';
-import linea from '../../Assets/Icons/Desktop/linea.png';
-
-const insideStyle = {
-    background : "transparent",
-    position: "absolute",
-    top: "43%",
-    left: "50%",
-    transform: "translate(-50%, -50%)" ,
-    width: 305,
-}
-
-const insideStyleTwo = {
-    background : "transparent",
-    position: "absolute",
-    textAlign: "right",
-    top: "35%",
-    left: "50%",
-    transform: "translate(-50%, -50%)" ,
-    width: 305,
-}
+import llave2b from '../../Assets/Images/Desktop/llave2b.svg';
+import llaveDesktop from '../../Assets/Images/Desktop/llave2.svg';
+import { FormattedMessage } from 'react-intl';
 
 
 
@@ -38,93 +14,87 @@ function ParallaxModule() {
   return (
     <div>
         <div className='parallax-mobile'>
-        <Parallax bgImage={image01} strength={100}>
-            <div style={{height: 600}}>
-            <div className='landing-title'> 
+
+            <div className='mobile-one'>
+                <div className='landing-title-desktop'> 
                         <img className='landing-llave' src={llave} alt=""></img>
-                        <h2 className='title'>¿qué es?</h2>
-                   </div> 
-                <div style={insideStyle}>       
-                    <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
-                    conocer los secretos del club, interactuar con sus jugadores y muchas otras sorpresas.
+                        <h2 className='title title-desktop'><FormattedMessage id='parallax.desktop.first.title'/></h2>
+                </div> 
+            
+                <div className='desktop-first-text'>
+                    <p className='first-para'><FormattedMessage id='parallax.desktop.first.para'
+                                                                 values={{b: (chunks)=>
+                                                                 <strong style={{fontFamily:'Livvic-semi'}}>{chunks}
+                                                                 </strong>}}/>
                     </p>
-                    <p className='first-para'>Conoce los <b>secretos</b> del estadio y el club mientras juegas e interactúas a través de experiencias 
-                    de realidad aumentada y virtual para todos los públicos. 
+                    <p className='first-para'><FormattedMessage id='parallax.desktop.second.para'
+                                                                 values={{b: (chunks)=>
+                                                                 <strong style={{fontFamily:'Livvic-semi'}}>{chunks}
+                                                                 </strong>}}/>
                     </p>
                 </div>
             </div>
 
-            
-        </Parallax>
-                  
-        
-
-        <Parallax bgImage={image02} blur={{min: -1, max: 3}}>
-        <div className='parallax-image-container'>
-            <img className='parallax-image' src={rectangle} alt=''></img>
-            <div className='title-llave'>
-            <h1>¿qué incluye?</h1>
-                <div className='parallax-llave'>
-                    <img  className='circulo' src={circulo} alt=""></img>
-                    <img src={linea} alt=""></img>
-                </div>
-            </div>
-            
-            </div>
-            <div style={{height: 500}}>
-                <div style={insideStyleTwo}>
+            <div className='mobile-two'>
+                    <div className='definitivo-container'>
+                        <h2 className='definitivo-text'><FormattedMessage id='parallax.desktop.second.title'/></h2>
+                        <img src={llave2b} alt="" className='parallax-llave'></img>            
+                    </div>
+                <div className='desktop-two-text' style={{top: '75px'}}>
                     <div className='menu'>
                         <img className='menu-icon' src={menu01} alt=''/>
-                        <h2 className='parallax-second'>mural interactivo</h2>
+                        <h2 className='parallax-second'><FormattedMessage id='parallax.desktop.second.subtitle'/></h2>
                     </div>           
-                    <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
-                       del Granada CF a través de la realidad aumentada. 
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.second.paragraph'/>
                     </p>
                 </div>
             </div>
-        </Parallax>
 
-        <Parallax bgImage={image03} strength={100}>
-            <div style={{height: 500}}>
-                <div style={insideStyle}>
+            <div className='mobile-three'>
+                <div className='desktop-one-text'>
                     <div className='menu-three'>  
-                        <h2 className='parallax-three'>experiencia inmersiva 360º</h2>
+                        <h2 className='parallax-three'><FormattedMessage id='parallax.desktop.three.subtitle'/></h2>
                         <img className='menu-icon' src={menu02} alt=''/>
                     </div>
-                    <p>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
-                        experiencia de realidad virtual. Calienta junto con tus compañeros de equipo 
-                        o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo. 
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.three.paragraph'/> 
                     </p>
-                </div>
+                </div>              
             </div>
-        </Parallax>
 
-        <Parallax bgImage={image04} strength={100}>
-            <div style={{height: 500}}>
-                <div style={insideStyleTwo}>
+            <div className='mobile-four'>
+                <div className='desktop-two-text'>
                     <div className='menu-four'>
                         <img className='menu-icon' src={menu03} alt=''/>
-                        <h2 className='parallax-four'>foto con jugadores</h2>
+                        <h2 className='parallax-four'><FormattedMessage id='parallax.desktop.four.subtitle'/></h2>
                     </div>
-                    <p>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
-                        Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.four.paragraph'/>
                     </p>
-                </div>
+                </div>             
             </div>
-        </Parallax>
+                      
+
+        
         </div>
 
         {/*********************************** PARALLAX DESKTOP VERSION*****************************************/}
 
         <div className='parallax-desktop'>
             <div className='desktop-one'>
-            <img className='landing-llave' src={llave} alt=""></img>
+                <div className='landing-title-desktop'> 
+                        <img className='landing-llave-left' src={llave} alt=""></img>
+                        <h2 className='title title-desktop'><FormattedMessage id='parallax.desktop.first.title'/></h2>
+                </div> 
+            
                 <div className='desktop-first-text'>
-                    <p className='first-para'>Una <b>experiencia única</b> que permite al visitante sumergirse en la vibrante emoción del día de partido, 
-                    conocer los secretos del club, interactuar con sus jugadores y muchas otras sorpresas.
+                    <p className='first-para'><FormattedMessage id='parallax.desktop.first.para'
+                                                                 values={{b: (chunks)=>
+                                                                 <strong style={{fontFamily:'Livvic-semi'}}>{chunks}
+                                                                 </strong>}}/>
                     </p>
-                    <p className='first-para'>Conoce los <b>secretos</b> del estadio y el club mientras juegas e interactúas a través de experiencias 
-                    de realidad aumentada y virtual para todos los públicos. 
+                    <p className='first-para'><FormattedMessage id='parallax.desktop.second.para'
+                                                                 values={{b: (chunks)=>
+                                                                 <strong style={{fontFamily:'Livvic-semi'}}>{chunks}
+                                                                 </strong>}}/>
                     </p>
                 </div>
 
@@ -134,20 +104,15 @@ function ParallaxModule() {
 
             <div className='desktop-two'>
                 <div className='parallax-image-container-desktop'>
-                    <img className='parallax-image' src={rectangle} alt=''></img>
-                    <h1 className='h1'>¿qué incluye?</h1>
-                    <div className='parallax-llave'>
-                        <img src={circulo} alt=""></img>
-                        <img src={linea} alt=""></img>
-                    </div>
+                        <h1 className='h1'><FormattedMessage id='parallax.desktop.second.title'/></h1>
+                        <img src={llaveDesktop} alt="" className='parallax-llave'></img>     
                 </div>
                 <div className='desktop-two-text'>
                     <div className='menu'>
                         <img className='menu-icon' src={menu01} alt=''/>
-                        <h2 className='parallax-second'>mural interactivo</h2>
+                        <h2 className='parallax-second'><FormattedMessage id='parallax.desktop.second.subtitle'/></h2>
                     </div>           
-                    <p className='parallax-second'>Accede a contenido adicional como momentos históricos o  jugadores míticos 
-                       del Granada CF a través de la realidad aumentada. 
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.second.paragraph'/>
                     </p>
                 </div>
             </div>
@@ -155,24 +120,21 @@ function ParallaxModule() {
             <div className='desktop-three'>
                 <div className='desktop-one-text'>
                     <div className='menu-three'>  
-                        <h2 className='parallax-three'>experiencia inmersiva 360º</h2>
+                        <h2 className='parallax-three'><FormattedMessage id='parallax.desktop.three.subtitle'/></h2>
                         <img className='menu-icon' src={menu02} alt=''/>
                     </div>
-                    <p className='parallax-second'>Siéntete como un verdadero jugador del Granada CF con esta espectacular 
-                        experiencia de realidad virtual. Calienta junto con tus compañeros de equipo 
-                        o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo. 
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.three.paragraph'/> 
                     </p>
                 </div>              
             </div>
 
             <div className='desktop-four'>
-                <div className='desktop-two-text'>
+                <div className='desktop-four-text'>
                     <div className='menu-four'>
                         <img className='menu-icon' src={menu03} alt=''/>
-                        <h2 className='parallax-four'>foto con jugadores</h2>
+                        <h2 className='parallax-four'><FormattedMessage id='parallax.desktop.four.subtitle'/></h2>
                     </div>
-                    <p className='parallax-second'>Aprovecha el palco presidencial para hacerte una foto con tus jugadores preferidos. 
-                        Elige hasta 3 jugadores y consigue un recuerdo inolvidable.
+                    <p className='parallax-second'><FormattedMessage id='parallax.desktop.four.paragraph'/>
                     </p>
                 </div>             
             </div>

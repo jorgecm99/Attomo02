@@ -1,0 +1,137 @@
+{
+    "header.desktop.one" : "What is it?",
+    "header.desktop.two" : "What’s included?",
+    "header.desktop.three" : "Itinerary",
+    "header.desktop.four" : "Additional Information",
+    "header.desktop.button" : "Buy Tickets",
+
+    "header.desktop.lione": "Interactive Wall",
+    "header.desktop.litwo": "360º inmersive experience",
+    "header.desktop.lithree": "Photo with players",
+
+    "video.desktop.title" : "interactive tour",
+    "video.desktop.subtitle" : "Inmersive experience",
+    "video.desktop.button" : "tickets",
+
+    "parallax.desktop.first.title" : "WHAT IS IT?",
+    "parallax.desktop.first.para" : "A <b>unique experience</b> that allows visitors to dive in the vibrant emotion of the match day, discover the secrets of the club, interact with your favorite players and many other surprises.",
+    "parallax.desktop.second.para" : "In addition, you will learn the <b>secrets</b> of the stadium and the club while you play and interact through Augmented and Virtual Reality experiences for all audiences.",
+    
+    "parallax.desktop.second.title" : "What’s included?",
+    "parallax.desktop.second.subtitle" : "interactive wall",
+    "parallax.desktop.second.paragraph" : "Access additional content such as historical moments or legendary players of Granada FC through Augmented Reality",
+
+    "parallax.desktop.three.subtitle" : "360º inmersive experience",
+    "parallax.desktop.three.paragraph" : "Feel like a true Granada CF player with this spectacular Virtual Reality experience. Train with your teammates or rock with excitement from midfield as the anthem plays across the stadium.",
+
+    "parallax.desktop.four.subtitle" : "Photo with players",
+    "parallax.desktop.four.paragraph" : "Take advantage of the Presidential Box to take a photo with your favorite players. Choose up to 3 players and obtain an unforgettable memory.",
+
+    "landing.first.title": "itinerary",
+    "landing.first.one": "Meeting point",
+    "landing.first.two": "Player's gate",
+    "landing.first.three": "Mixed zone + interactive wall",
+    "landing.first.four": "Press room and journalists area",
+    "landing.first.five": "Dressing rooms",
+    "landing.first.six": "Senses tunnel",
+    "landing.first.seven": "Pitch + 360º inmersive experience",
+    "landing.first.eight": "Business room",
+    "landing.first.nine": "Presidential Box + photo with players",
+
+    "landing.desktop.title": "Additional information",
+    "landing.desktop.first": "Date and time:",
+    "landing.desktop.firstdate": "Friday",
+    "landing.desktop.seconddate": "Saturday",
+
+    "landing.desktop.two": "Duration:",
+    "landing.desktop.twodate": "1 hour",
+
+    "landing.desktop.three": "Place:",
+    "landing.desktop.threedate": "Nuevo Los Cármenes Stadium",
+    "landing.desktop.three2": "Meeting Point:",
+    "landing.desktop.threedate2" : "Stadium Shop",
+
+    "landing.desktop.four" : "Age:",
+    "landing.desktop.fourdate": "All public have access. Under 5 years old have free access",
+
+    "landing.desktop.five": "Language:",
+    "landing.desktop.fivedate": "Spanish | Also available in ENG, FRE, RUS, CHI...",
+
+    "landing.desktop.six": "Cancellation:",
+    "landing.desktop.sixdate": "Free cancellation until 7 days before the event",
+
+    "landing.desktop.seven": "Customize:",
+    "landing.desktop.sevendate": "To customize your own experience (birthday, company event, o big groups of people) contact with hola@bstadium.es",
+
+    "footer.desktop.one": "Contact",
+    "footer.desktop.onedate": "Contact us",
+
+    "footer.desktop.second": "Feel the <b>Granada CF experience</b> from inside and be part of it.",
+    "footer.desktop.button": "tickets",
+
+
+    
+
+
+
+
+    "header.mobile.one" : "What is it?",
+    "header.mobile.two" : "What’s included?",
+    "header.mobile.three" : "Itinerary",
+    "header.mobile.four" : "Additional Information",
+    "header.mobile.button" : "Buy Tickets",
+
+    "header.mobile.lione": "Interactive Wall",
+    "header.mobile.litwo": "360º inmersive experience",
+    "header.mobile.lithree": "Photo with players",
+
+    "video.mobile.title" : "interactive tour",
+    "video.mobile.subtitle" : "Inmersive experience",
+    "video.mobile.button" : "tickets",
+
+    "parallax.mobile.first.title" : "WHAT IS IT?",
+    "parallax.mobile.first.para" : "A unique experience that allows visitors to dive in the vibrant emotion of the match day, discover the secrets of the club, interact with your favorite players and many other surprises.",
+    "parallax.mobile.second.para" : "In addition, you will learn the secrets of the stadium and the club while you play and interact through Augmented and Virtual Reality experiences for all audiences.",
+    
+    "parallax.mobile.second.title" : "What’s included?",
+    "parallax.mobile.second.subtitle" : "interactive wall",
+    "parallax.mobile.second.paragraph" : "Access additional content such as historical moments or legendary players of Granada FC through Augmented Reality",
+
+    "parallax.mobile.three.subtitle" : "360º inmersive experience",
+    "parallax.mobile.three.paragraph" : "Feel like a true Granada CF player with this spectacular Virtual Reality experience. Train with your teammates or rock with excitement from midfield as the anthem plays across the stadium.",
+
+    "parallax.mobile.four.subtitle" : "Photo with players",
+    "parallax.mobile.four.paragraph" : "Take advantage of the Presidential Box to take a photo with your favorite players. Choose up to 3 players and obtain an unforgettable memory.",
+
+    "landing.mobile.title": "Additional information",
+    "landing.mobile.first": "Date and time:",
+    "landing.mobile.firstdate": "Friday",
+    "landing.mobile.seconddate": "Saturday",
+
+    "landing.mobile.two": "Duration",
+    "landing.mobile.twodate": "1 hour",
+
+    "landing.mobile.three": "Place",
+    "landing.mobile.threedate": "Nuevo Los Cármenes Stadium",
+    "landing.mobile.threedate2" : "Meeting Point : Stadium Shop",
+
+    "landing.mobile.four" : "Age",
+    "landing.mobile.fourdate": "All public have access. Under 5 years old have free access",
+
+    "landing.mobile.five": "Language",
+    "landing.mobile.fivedate": "Available in other languages",
+
+    "landing.mobile.six": "Cancellation",
+    "landing.mobile.sixdate": "Free cancellation until 7 days before the event",
+
+    "landing.mobile.seven": "Customize",
+    "landing.mobile.sevendate": "To customize your own experience (birthday, company event, o -------------big groups of people) contact with hola@bstadium.es",
+
+    "footer.mobile.one": "Contact",
+    "footer.mobile.onedate": "Contact us",
+
+    "footer.mobile.second": "Feel the Granada CF experience from inside and be part of it.",
+    "footer.mobile.button": "tickets"
+
+
+}

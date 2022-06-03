@@ -1,12 +1,14 @@
 @media only screen and (max-width: 859px) {
     
     .header {
+        background-color: #000000;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
+
     }
     nav {
         position: absolute;
@@ -18,29 +20,39 @@
         align-items: center;
         margin: 24px auto;
     }
-    .back-video{
+    .video-mobile{
+        width: 100%;
+        position: static;
+        object-fit: cover;
         right: 0;
         top: 0;
         left: 0;
-        height: 700px;
+        /*min-height: 667px;*/
         margin: auto ;
+        opacity: 40%;
+    }
+    .video-desktop {
+        display: none;
     }
     .dropdown-icon {
-        font-size: 36px;
+        position: absolute;
+        font-size: 34px;
         margin-left: 20px;
         z-index: 2;
+        top: -17px;
     }
     
     .image-logo {
-        margin: auto auto;
+        margin: auto auto auto auto;
         z-index: 1;
         width: 130px;
+        margin-left: 25%;
     }
     button {
-        width: 90px ;
+        /*width: 90px;*/
         border-radius: 27px;
         cursor: pointer;
-        line-height: 2px solid red;
+        border: 2px solid #B01630;
         background-color: #FFFFFF;
         color: #B01630;
         padding: 6px 8px;
@@ -60,7 +72,7 @@
         padding-bottom: 40px;
         margin-bottom: 0;
         width: 100vw;  
-        top: -28px;
+        top: -50px;
         
     }
     .dropdown-content li {
@@ -74,7 +86,17 @@
         align-items: center;
     }
     .dropdown-content li:hover{
-        color: gray;
+        color: #B01E36;      
+    }
+    .dropdown-bbb li {
+        list-style: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 75px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
     .dropdown:hover .dropdown-content {
         display: block;
@@ -82,16 +104,62 @@
     .dropdown-content-desktop li {
         display: none;
     }
-    
+    .dropdown-submenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dropdown-submenu-icon {
+        color: white;
+        font-size: 22px;
+        margin-right: 60px;
+    }
     .btn-container {
+        display: none;
         margin-right: 20px;
         z-index: 1;
+    }
+    .lang-container {
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lang-container span {
+        font-weight: lighter;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+    .btn-style {
+        border: none;
+        background-color: transparent;
+        font-family: Livvic;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 6px;
+        cursor: pointer;
+    }
+    .btn-style:focus {
+        font-weight: bolder;    
+    }
+    .btn-style:hover {
+        font-weight: bolder;
+    }
+    .btn-start {
+        border: none;
+        background-color: transparent;
+        font-family: Livvic;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 6px;
+        cursor: pointer;
+        font-weight: bolder;
     }
     .header-video-content {
         position: absolute;
         text-align: center;
         font-family: Livvic;
-        top: 120px;
+        top: 165px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -99,23 +167,25 @@
     }
      
     .header-title {
-        font-family: Boldness;
+        font-family: Helvetica-condensed;
+        text-transform: uppercase;
         width: 80%;
-        font-size: 60px;
+        font-size: 55px;
         margin: 0 auto;
     }
     .header-title-two {
-        font-family: Boldness-outline;
-        font-size: 50px;
+        font-family: Helvetica-regular;
+        font-size: 42px;
         margin: 20px 20px 0 20px;
     }
     .header-btn {
         text-transform: uppercase;
-        font-family: Livvic;
+        font-family: Helvetica-regular;
         font-size: 25px;
         color: #c31732;
         margin: 30px auto;
-        min-width: 210px;
+        padding: 18px 8px;
+        min-width: 190px;
         height: 56px;
         letter-spacing: 6px;
         cursor: pointer;
@@ -129,6 +199,7 @@
         margin: auto 40px;
     }
     .wasap-logo {
+        display: none;
         width: 50px;
         position: absolute;
         bottom: 10px;
@@ -136,6 +207,35 @@
     }
     .wasap-pic {
         width: 100%;
+    }
+    .header-two-images {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin: auto 40px;
+        height: 100px;
+    }
+    .logo-one {
+        margin: 10px 10px;
+        height: 100%;
+    }
+    .header-cierre {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .header-cierre img {
+        width: 110px;
+        margin: auto 5px;
+    }
+    .header-cierre-text {
+        font-family: Livvic;
+        font-size: 16px;
+        color: #ffffff;
+        margin: auto 5px;
     }
     
 }
@@ -145,13 +245,14 @@
 @media screen and (min-width: 860px) {
     
     .header {
-        background-image: linear-gradient(to top right, red, white);
+        background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
         /*display: flex;
         justify-content: center;
         align-items: center;
@@ -167,15 +268,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 20px auto;
+        margin: 14px auto;
+    
     }
-    .back-video {
+    .video-desktop {
+        position: absolute;
+        object-fit: cover;
         right: 0;
         top: 0;
         left: 0;
         width: 100%;
+        height: 100%;
         margin: auto ;
-        opacity: 20%;
+        opacity: 40%;
+    }
+    .video-mobile {
+        display: none;
     }
     .dropdown{
         display: none;
@@ -184,32 +292,76 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .dropdown-content-desktop li {
-        font-family: Livvic-semi;
+        font-family: Livvic;
         list-style: none;
         color: #FFFFFF;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: bold;
-        padding: 20px 30px;
+        padding: 16px 30px;
+    }
+
+    .dropdown-content-desktop li:hover {
+        color: #B01E36;
+        
     }
     
-    button {
-        width: 117px ;
-        border-radius: 27px;
+    .btn-container-header {
+        font-family: Helvetica-regular;
+        /*width: 139px;*/
+        border-radius: 33px;
         cursor: pointer;
-        line-height: 2px solid red;
+        border: 2px solid #c20f2f;
         background-color: #FFFFFF;
-        color: #B01630;
-        padding: 6px 8px;
-        font-size: 16px;
+        color: #c20f2f;
+        padding: 8px 8px 6px 8px;
+        font-size: 18px;
         font-weight: bold;
     }
     .image-logo{
         margin-left: 25px;
+        width: 10%;
     }
     .btn-container {
         margin-right: 25px;
+    }
+    .lang-container {
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lang-container span {
+        font-weight: lighter;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+    .btn-style {
+        border: none;
+        background-color: transparent;
+        font-family: Livvic;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 6px;
+        cursor: pointer;
+    }
+    .btn-style:hover {
+        font-weight: bolder;
+    }
+    .btn-style:focus {
+        font-weight: bolder;
+    }
+    .btn-start {
+        border: none;
+        background-color: transparent;
+        font-family: Livvic;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 6px;
+        cursor: pointer;
+        font-weight: bolder;
     }
     .dropdown-header {
         position: relative;
@@ -220,21 +372,22 @@
         position: absolute;
         z-index: 1;
         margin-bottom: 0;
-        width: 145%;
-        
+        width: 145%;        
     }
+
     .dropdown-content-header li {
         list-style: none;
         color: #FFFFFF;
         font-size: 18px;
         font-weight: 700;
-        padding: 10px 30px;
+        padding: 6px 30px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
     .dropdown-content-header li:hover{
-        color: gray;
+        color: #B01E36;
+        text-decoration: underline;
     }
     .dropdown-header:hover .dropdown-content-header {
         display: block;
@@ -243,54 +396,79 @@
         position: absolute;
         text-align: center;
         font-family: Livvic;
-        top: 120px;
+        top: 100px;
         left: 0;
         right: 0;
         bottom: 0;
-        margin: auto;
-    }
-     
+        margin: 80px auto;
+    }   
+    /*.header-text-block{
+        margin-top: 140px;
+    }*/
     .header-title {
-        font-family: Boldness;
+        font-family: Helvetica-condensed;
+        text-transform: uppercase;
         width: 80%;
         font-size: 100px;
         margin: 20px auto;
     }
     .header-title-two {
-        font-family: Boldness-outline;
-        font-size: 60px;
-        margin: 20px 20px 60px 20px;
+        font-family: Helvetica-regular;
+        font-size: 70px;
+        margin: 20px 20px 20px 20px;
     }
     .header-btn {
         text-transform: uppercase;
-        font-family: Livvic;
+        font-family: Helvetica-regular;
         font-size: 25px;
-        color: #c31732;
-        margin: 30px auto;
+        color: #c20f2f;
+        margin: 25px auto 25px auto;
+        padding: 10px 20px;
         min-width: 210px;
         height: 56px;
         letter-spacing: 6px;
         cursor: pointer;
         border: none;
+        border-radius: 34px;
         text-decoration: none !important;
     }
     .header-two-images {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
-        margin: auto 40px;
+        margin: 20px 40px;
+        height: 100px;
     }
     .logo-one {
         margin: auto 10px;
+        height: 100%;
     }
     .wasap-logo {
-        width: 80px;
+        width: 65px;
         position: absolute;
         bottom: 10px;
         right: 10px;
     }
     .wasap-pic {
         width: 100%;
+    }
+    .header-cierre {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .header-cierre img {
+        width: 80px;
+        margin: auto 5px;
+    }
+    .header-cierre-text {
+        font-family: Livvic;
+        font-size: 16px;
+        color: #ffffff;
+        margin: auto 5px;
     }
 
 }

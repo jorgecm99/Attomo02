@@ -1,0 +1,136 @@
+{
+    "header.desktop.one" : "¿Qué es?",
+    "header.desktop.two" : "¿Qué incluye?",
+    "header.desktop.three" : "Itinerario",
+    "header.desktop.four" : "Info Práctica",
+    "header.desktop.button" : "Comprar entradas",
+
+    "header.desktop.lione": "Mural interactivo",
+    "header.desktop.litwo": "Experiencia inmersiva 360°",
+    "header.desktop.lithree": "Foto con jugadores",
+
+    "video.desktop.title" : "tour interactivo",
+    "video.desktop.subtitle" : "Experiencia inmersiva",
+    "video.desktop.button" : "comprar",
+
+    "parallax.desktop.first.title" : "¿qué es?",
+    "parallax.desktop.first.para" : "Una <b>experiencia única</b> que permitirá sumergirte en la vibrante emoción del día de partido, conocer los secretos del club, interactuar con tus jugadores favoritos y muchas otras sorpresas.",
+    "parallax.desktop.second.para" : "Además, conocerás los <b>secretos</b> del estadio y el club mientras juegas e interactúas a través de experiencias de Realidad Aumentada y Virtual para todos los públicos.",
+    
+    "parallax.desktop.second.title" : "¿qué incluye?",
+    "parallax.desktop.second.subtitle" : "mural interactivo",
+    "parallax.desktop.second.paragraph" : "Accede a contenido adicional como momentos históricos o  jugadores míticos del Granada CF a través de la realidad aumentada.",
+
+    "parallax.desktop.three.subtitle" : "experiencia inmersiva 360º",
+    "parallax.desktop.three.paragraph" : "Siéntete como un verdadero jugador del Granada CF con esta espectacular experiencia de realidad virtual. Calienta junto con tus compañeros de equipo o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo.",
+
+    "parallax.desktop.four.subtitle" : "foto con jugadores",
+    "parallax.desktop.four.paragraph" : "Aprovecha los lugares más exclusivos del estadio, para hacerte una foto con tus jugadores preferidos. Elige hasta 3 jugadores y consigue un recuerdo inolvidable.",
+
+    "landing.first.title": "itinerario",
+    "landing.first.one": "Punto de encuentro",
+    "landing.first.two": "Puerta de jugadores",
+    "landing.first.three": "Zona mixta + mural interactivo",
+    "landing.first.four": "Sala de prensa y zona de periodistas",
+    "landing.first.five": "Vestuarios",
+    "landing.first.six": "Túnel de los sentidos",
+    "landing.first.seven": "Terreno de juego + experiencia inmersiva 360º",
+    "landing.first.eight": "Sala business",
+    "landing.first.nine": "Palco presidencial + foto con jugadores",
+
+    "landing.desktop.title": "información práctica",
+    "landing.desktop.first": "Fecha y hora:",
+    "landing.desktop.firstdate": "Viernes",
+    "landing.desktop.seconddate": "Sábado",
+
+    "landing.desktop.two": "Duración:",
+    "landing.desktop.twodate": "1 hora",
+
+    "landing.desktop.three": "Lugar:",
+    "landing.desktop.threedate": "Estadio Nuevo Los Cármenes",
+    "landing.desktop.three2" : "Punto de encuentro:",
+    "landing.desktop.threedate2": "Tienda del estadio",
+
+    "landing.desktop.four" : "Menores:",
+    "landing.desktop.fourdate": "Acceso permitido a todos los públicos. Entrada gratuita a menores de 5 años",
+
+    "landing.desktop.five": "Idiomas:",
+    "landing.desktop.fivedate": "Español | También disponible en ING, FRA, RUS, CHI...",
+
+    "landing.desktop.six": "Cancelación:",
+    "landing.desktop.sixdate": "Cancelación gratuita hasta 7 días antes",
+
+    "landing.desktop.seven": "Personalizar:",
+    "landing.desktop.sevendate": "Para personalizar tu experiencia (cumpleaños, empresas, grupos grandes) contactad con hola@bstadium.es",
+
+    "footer.desktop.one": "contacto",
+    "footer.desktop.onedate": "Contacta con nosotros",
+
+    "footer.desktop.second": "Siente la <b>experiencia Granada CF</b> desde dentro y forma parte de ella.",
+    "footer.desktop.button": "comprar",
+
+
+
+
+
+
+
+    "header.mobile.one" : "¿Qué es?",
+    "header.mobile.two" : "¿Qué incluye?",
+    "header.mobile.three" : "Itinerario",
+    "header.mobile.four" : "Info Práctica",
+    "header.mobile.button" : "Comprar entradas",
+
+    "header.mobile.lione": "Mural interactivo",
+    "header.mobile.litwo": "Experiencia inmersiva 360°",
+    "header.mobile.lithree": "Foto con jugadores",
+
+    "video.mobile.title" : "tour interactivo",
+    "video.mobile.subtitle" : "Experiencia inmersiva",
+    "video.mobile.button" : "comprar",
+
+    "parallax.mobile.first.title" : "¿qué es?",
+    "parallax.mobile.first.para" : "Una experiencia única que permite al visitante sumergirse en la vibrante emoción del día de partido, conocer los secretos del club, interactuar con tus jugadores favoritos y muchas otras sorpresas.",
+    "parallax.mobile.second.para" : "Además, conocerás los secretos del estadio y el club mientras juegas e interactúas a través de experiencias de realidad aumentada y virtual para todos los públicos.",
+    
+    "parallax.mobile.second.title" : "¿qué incluye?",
+    "parallax.mobile.second.subtitle" : "mural interactivo",
+    "parallax.mobile.second.paragraph" : "Accede a contenido adicional como momentos históricos o  jugadores míticos del Granada CF a través de la realidad aumentada.",
+
+    "parallax.mobile.three.subtitle" : "experiencia inmersiva 360º",
+    "parallax.mobile.three.paragraph" : "Siéntete como un verdadero jugador del Granada CF con esta espectacular experiencia de realidad virtual. Calienta junto con tus compañeros de equipo o vibra de la emoción al escuchar el himno por todo el estadio desde el centro del campo.",
+
+    "parallax.mobile.four.subtitle" : "foto con jugadores",
+    "parallax.mobile.four.paragraph" : "Aprovecha los lugares más exclusivos del estadio, para hacerte una foto con tus jugadores preferidos. Elige hasta 3 jugadores y consigue un recuerdo inolvidable.",
+
+    "landing.mobile.title": "información práctica",
+    "landing.mobile.first": "Fecha y hora:",
+    "landing.mobile.firstdate": "Viernes",
+    "landing.mobile.seconddate": "Sábado",
+
+    "landing.mobile.two": "Duración:",
+    "landing.mobile.twodate": "1 hora",
+
+    "landing.mobile.three": "Lugar:",
+    "landing.mobile.threedate": "Estadio Nuevo Los Cármenes",
+    "landing.mobile.threedate2" : "Punto de encuentro: Tienda del estadio",
+
+    "landing.mobile.four" : "Menores:",
+    "landing.mobile.fourdate": "Acceso permitido a todos los públicos. Entrada gratuita a menores de 5 años",
+
+    "landing.mobile.five": "Idiomas:",
+    "landing.mobile.fivedate": "Disponible en otros idiomas",
+
+    "landing.mobile.six": "Cancelación:",
+    "landing.mobile.sixdate": "Cancelación gratuita hasta 7 días antes",
+
+    "landing.mobile.seven": "Personalizar:",
+    "landing.mobile.sevendate": "Para personalizar tu experiencia (cumpleaños, empresas, grupos grandes) contactadcon hola@bstadium.es",
+
+    "footer.mobile.one": "contacto",
+    "footer.mobile.onedate": "Contacta con nosotros",
+
+    "footer.mobile.second": "Siente la experiencia Granada CF desde dentro y forma parte de ella.",
+    "footer.mobile.button": "comprar"
+
+}

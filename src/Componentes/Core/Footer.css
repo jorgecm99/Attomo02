@@ -11,7 +11,7 @@
 
     }
     .footer-one h2 {
-        font-family: Boldness;
+        font-family: Helvetica-regular;
         text-transform: uppercase;
         font-size: 50px;
         font-weight: 400;
@@ -41,34 +41,59 @@
         position: absolute;
         text-align: center;
         font-family: Livvic;
-        top: 100px;
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        margin: auto;
+        margin: 80px auto;
     }
     .footer-two-container p {
         color: #ffffff;
-        font-size: 30px;
+        font-size: 25px;
         margin: auto 27px;
+        font-family: Livvic;
+        font-weight: lighter;
     }
     .footer-btn {
         text-transform: uppercase;
-        font-family: Livvic;
+        font-family: Helvetica-regular;
         font-size: 25px;
-        color: red;
+        color: #c31732;
         margin: 40px auto 60px auto;
-        min-width: 210px;
+        padding: 19px 8px 12px 12px;
+        min-width: 190px;
         height: 56px;
         letter-spacing: 6px;
         cursor: pointer;
         border: none;
+        text-decoration: none !important;
     }
+
+
     .footer-two-images {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin: auto 40px;
+    }
+    .footer-cierre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        bottom: 20px;
+    }
+    .footer-cierre img {
+        width: 110px;
+        margin: auto 5px;
+    }
+    .footer-cierre-text {
+        font-family: Livvic;
+        font-size: 20px;
+        color: #ffffff;
+        margin: auto 5px;
     }
     
     
@@ -82,25 +107,24 @@
         background-color: #423333;
         text-align: center;
         color: #ffffff;
-        height: 322px;
-    }
-    .footer-one {
-        background-color: #423333;
-        text-align: center;
-        color: #ffffff;
-        height: 322px;
-
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .footer-one h2 {
-        font-family: Boldness;
+        font-family: Helvetica-regular;
         text-transform: uppercase;
         font-size: 50px;
         font-weight: 400;
         margin-top: 0;
-        padding-top: 60px;
+        
+    }
+    .margin-bt-zero{
+        margin-bottom: 0;
     }
     .footer-one-para {
-        margin: 25px auto;
+        margin: 5px auto;
     }
     .footer-one-para p {
         margin: 5px auto;
@@ -128,13 +152,13 @@
         right: 0;
         bottom: 0;
         margin: 80px auto;
-        width: 45%;
+        width: 39%;
     }
     .footer-two-container p {
         font-family: Livvic;
         font-weight: lighter;
         color: #ffffff;
-        font-size: 40px;
+        font-size: 30px;
         margin: auto auto;
     }
     .bold {
@@ -144,21 +168,43 @@
     }
     .footer-btn {
         text-transform: uppercase;
-        font-family: Livvic;
+        font-family: Helvetica-regular;
         font-size: 25px;
-        color: red;
+        color: #c31732;
         margin: 60px auto 60px auto;
+        padding: 10px 20px;
         min-width: 210px;
         height: 56px;
         letter-spacing: 6px;
         cursor: pointer;
         border: none;
+        border-radius: 27px;
+        text-decoration: none !important;
     }
     .footer-two-images {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        margin: auto 40px;
+        margin: 10px 40px;
+    }
+    .footer-cierre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        margin: 30px auto;
+        bottom: 0;
+    }
+    .footer-cierre img {
+        width: 130px;
+        margin: auto 3px;
+    }
+    .footer-cierre-text {
+        font-family: Livvic;
+        font-size: 20px;
+        color: #ffffff;
+        margin: auto 8px;
     }
     
 }

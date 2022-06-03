@@ -11,13 +11,24 @@
   src: url(/src/Assets/Fonts/Boldness.otf) format('opentype');
 }
 @font-face {
+  font-family: 'Boldness-outline';
+  src: url(/src/Assets/Fonts/Boldness-Outline.otf) format('opentype');
+}
+@font-face {
   font-family: 'Livvic';
   src: url(/src/Assets/Fonts/Livvic-Light.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Livvic-semi';
   src: url(/src/Assets/Fonts/Livvic-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-regular';
+  src: url(/src/Assets/Fonts/Helvetica.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-condensed';
+  src: url(/src/Assets/Fonts/Helvetica-Black.ttf) format('truetype');
 }
 
 
